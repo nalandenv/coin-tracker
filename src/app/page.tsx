@@ -1,10 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+import styles from "./page.module.scss"
+import Navbar from "./navbar";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Coin Tracker</h1>
+      <Navbar />
     </main>
   );
 }
